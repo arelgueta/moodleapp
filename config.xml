@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.moodle.moodlemobile" version="3.8.2" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>UMVirtual</name>
-    <description>Moodle official app</description>
-    <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
+    <description>Plataforma Virtual Universidad de Mendoza</description>
+    <author email="dt@um.edu.ar" href="https://virtual.um.edu.ar">Departamento de Tecnología - Universidad de Mendoza</author>
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
