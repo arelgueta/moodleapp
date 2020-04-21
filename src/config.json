@@ -1,6 +1,6 @@
 {
-    "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "app_id": "ar.edu.um.virtual",
+    "appname": "UMVirtual",
     "desktopappname": "Moodle Desktop",
     "versioncode": 3820,
     "versionname": "3.8.2",
@@ -61,12 +61,12 @@
     "wsextservice": "local_mobile",
     "demo_sites": {
         "student": {
-            "url": "https:\/\/school.moodledemo.net",
+            "url": "https:\/\/virtual.um.edu.ar",
             "username": "student",
             "password": "moodle"
         },
         "teacher": {
-            "url": "https:\/\/school.moodledemo.net",
+            "url": "https:\/\/virtual.um.edu.ar",
             "username": "teacher",
             "password": "moodle"
         }
