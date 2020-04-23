@@ -3,7 +3,7 @@
     "appname": "UMVirtual",
     "desktopappname": "Moodle Desktop",
     "versioncode": 3820,
-    "versionname": "3.8.2",
+    "versionname": "0.1.0",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
@@ -59,25 +59,13 @@
     },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
-    "demo_sites": {
-        "student": {
-            "url": "https:\/\/virtual.um.edu.ar",
-            "username": "student",
-            "password": "moodle"
-        },
-        "teacher": {
-            "url": "https:\/\/virtual.um.edu.ar",
-            "username": "teacher",
-            "password": "moodle"
-        }
-    },
     "font_sizes": [
         62.5,
         75.89,
         93.75
     ],
     "customurlscheme": "moodlemobile",
-    "siteurl": "",
+    "siteurl": "https:\/\/virtual.um.edu.ar",
     "sitename": "",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
