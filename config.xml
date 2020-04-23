@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="ar.edu.um.virtual" version="0.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>UMVirtual</name>
-    <description>Plataforma Virtual Universidad de Mendoza</description>
-    <author email="dt@um.edu.ar" href="https://virtual.um.edu.ar">Departamento de Tecnología - Universidad de Mendoza</author>
+    <name>Moodle</name>
+    <description>UMVirtual official app</description>
+    <author email="dt@um.edu.ar" href="http://um.edu.ar">Departamento de Tecnología - Universidad de Mendoza</author>
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />
@@ -174,12 +174,12 @@
     <plugin name="cordova-plugin-zip" spec="3.1.0" />
     <plugin name="cordova-sqlite-storage" spec="3.4.0" />
     <plugin name="nl.kingsquare.cordova.background-audio" spec="1.0.1" />
-    <plugin name="phonegap-plugin-push" spec="https://github.com/arelgueta/moodleapp.git">
+    <plugin name="phonegap-plugin-push" spec="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3">
         <variable name="ANDROID_SUPPORT_V13_VERSION" value="27.+" />
         <variable name="FCM_VERSION" value="17.5.+" />
     </plugin>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='MainActivity']">
-        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false" />
+        <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
     </edit-config>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application">
         <application android:usesCleartextTraffic="true" />
