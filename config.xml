@@ -174,7 +174,7 @@
     <plugin name="cordova-plugin-zip" spec="3.1.0" />
     <plugin name="cordova-sqlite-storage" spec="3.4.0" />
     <plugin name="nl.kingsquare.cordova.background-audio" spec="1.0.1" />
-    <plugin name="phonegap-plugin-push" spec="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3">
+    <plugin name="phonegap-plugin-push" spec="https://github.com/arelgueta/moodleapp.git">
         <variable name="ANDROID_SUPPORT_V13_VERSION" value="27.+" />
         <variable name="FCM_VERSION" value="17.5.+" />
     </plugin>
