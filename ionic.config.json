@@ -1,6 +1,6 @@
 {
-  "name": "moodlemobile",
-  "app_id": "com.moodle.moodlemobile",
+  "name": "UMVirtual",
+  "app_id": "ar.edu.um.virtual",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {},

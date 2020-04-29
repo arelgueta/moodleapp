@@ -1,10 +1,10 @@
 {
-  "name": "moodlemobile",
+  "name": "UMVirtual",
   "version": "3.5.0",
-  "description": "The official app for Moodle.",
+  "description": "Aplicaci{on Oficial Universidad de Mendoza.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "Departamento de Tecnología - Universidad de mendoza",
+    "email": "dt@um.edu.ar"
   },
   "config": {
     "ionic_webpack": "./config/webpack.config.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moodlehq/moodlemobile2.git"
+    "url": "https://github.com/arelgueta/moodleapp.git"
   },
   "license": "Apache-2.0",
   "licenses": [
