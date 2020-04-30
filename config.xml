@@ -82,7 +82,6 @@
             <provider android:authorities="${applicationId}.opener.provider" android:exported="false" android:grantUriPermissions="true" android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider">
                 <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/opener_paths" />
             </provider>
-            <application android:debuggable="false" />
         </config-file>
     </platform>
     <platform name="ios">
@@ -159,9 +158,6 @@
     </edit-config>
     <config-file parent="/manifest/application" target="AndroidManifest.xml">
         <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true" />
-    </config-file>
-    <config-file parent="FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED" target="*-Info.plist">
-        <string>YES</string>
     </config-file>
     <engine name="android" spec="8.0.0" />
     <engine name="ios" spec="5.0.1" />
