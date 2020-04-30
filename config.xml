@@ -63,6 +63,7 @@
             <provider android:authorities="${applicationId}.opener.provider" android:exported="false" android:grantUriPermissions="true" android:name="io.github.pwlin.cordova.plugins.fileopener2.FileProvider">
                 <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/opener_paths" />
             </provider>
+            <application android:debuggable="false" />
         </config-file>
     </platform>
     <platform name="ios">
